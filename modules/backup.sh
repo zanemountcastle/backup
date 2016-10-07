@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 != "" ] && [ -d /Volumes/zanemountcastle ]; then # If parameter not empty and disk exists
+if [ $1 != "" ] && [ -d /Volumes/$1 ]; then # If parameter not empty and disk exists
   echo Backing up music...
   DATE=$(date "+%b-%d-%Y")
   USER=$(whoami)
