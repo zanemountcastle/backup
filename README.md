@@ -4,7 +4,9 @@ Backup is a simple Bash script that allows the user backup their iTunes files to
 
 ## Purpose
 
-This script is intended to allow the user to avoid the annoying complexities of copying large directories to an external disk by means of dragging and dropping. By running this script in the terminal, the user invokes the `rsync` utility to safely and securely copy a large directory to an external drive.
+This script is intended to allow the user to avoid the annoying complexities of copying large directories to an external disk by means of dragging and dropping. Often, when the directory is too large, it can take a ridiculous amout of time just to estimate the time remaining to copy the files to the external disk.
+
+By running this script in the terminal, the user invokes the `rsync` utility to safely and securely copy a large directory to an external drive.
 
 Of course, this script can be easily generalized to copy large files and/or directories from any source file to any destination file. However, you might as well just use `rsync` directly for this.
 
