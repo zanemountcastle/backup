@@ -24,5 +24,5 @@ In `~./backup/modules`, run the following command:
 
 ```
 chmod +x backup.sh
-./backup.sh drive   # Where 'drive' is the name of you external disk
+./backup.sh drive   # Where 'drive' is the name of your external disk
 ```
